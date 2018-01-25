@@ -7,12 +7,11 @@
 }
 
 main {
-	float: left;
 	width: 66.66667%;
 }
 
 aside {
-	float: right;
+
 	width: 29%;
 	margin-top: 6em; /* =108px, em means parent font size times 6 */
 	color: #888; 
@@ -30,6 +29,15 @@ a {
 
 a:hover {
 	color: #A00;
+}
+
+nav ul {
+  display: flex;
+}
+
+.blog-body {
+  display: flex;
+  justify-content: space-between;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -100,7 +108,7 @@ header nav ul {
 	padding: 0;
 }
 header nav ul li {
-	float: left;
+
 	width: 16.66667%;
 	margin: 0;
 	padding: 0;
@@ -125,7 +133,7 @@ article {
 	padding-bottom: 1.5em;
 }
 article p:first-of-type:first-letter {
-	float: left;
+
 	font-size: 6em;
 	line-height: 1;
 	color: #DDD;
@@ -144,30 +152,4 @@ article p:first-of-type:first-letter {
 	margin: 0 auto;
 }
 
-/** CLEARFIX HACK:;
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.cf:after {
-    clear: both;
-}
-
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-.cf {
-    *zoom: 1;
-}
 
