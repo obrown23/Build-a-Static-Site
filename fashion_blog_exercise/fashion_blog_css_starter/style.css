@@ -1,0 +1,28 @@
+body{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h1{
+    display: inline-block;
+    color: red;
+    margin-right: 20px;
+    margin: 10px;
+}
+
+#peps{
+    display: inline-block;
+}
+nav > ul > li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+    height: 10%;
+    justify-content: space-between;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 1.2em;
+    color: white;
+}
