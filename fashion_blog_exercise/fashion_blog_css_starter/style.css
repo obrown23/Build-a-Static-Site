@@ -34,7 +34,7 @@ nav > ul > li{
     width: 200px;
     float: left;
     line-height: 50px;
-    text-align: center;
+    align-items: center;
     margin-right: 2px;
 
 }
@@ -48,7 +48,8 @@ font-size: 2.1em;
 color: rgb(194, 194, 194);
 }
 #all{
-    display: flex;
+ display: flex; 
+ justify-content: center;
 width: 100%;
 
 }
@@ -62,4 +63,20 @@ width: 100%;
     width: 30%;    
     
     
+}
+/* Popular Posts */
+#pops{
+    color: red;
+}
+/* footer navigation bar */
+#footnav{
+    color: red;
+}
+/* color for words "more" and "continues" */
+#con{
+    color: red;
+}
+h4{
+    color: rgb(165, 165, 165);
+    font-size: 2.1em;
 }
